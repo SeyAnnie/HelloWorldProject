@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(6, 13, 37);
+    color: black;
+    text-align: center;
+
+}
+table{margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color:blanchedalmond;
+    font: size 100px;
+
+}
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    color: black;
+}

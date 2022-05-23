@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(6, 13, 37);
+    color: black;
+    text-align: center;
+}
+
+body nav {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    flex-direction: flex-end;
+    justify-content: end;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+nav li:hover {
+    background-color: rgb(34, 48, 95);
+    color: white;
+}
+
+.li__ctn {
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(34, 48, 95);
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.ul__list {
+    display: flex;
+    text-decoration: none;
+}
+
+.details__ctn {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 15px;
+
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usrname__ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.login-form input, select {
+    height: 30px;
+    width: 40em;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.login-form input:hover {
+    border-width: 2px;
+}
+
+.login-form button {
+    height: 50px;
+    background-color: rgb(6, 13, 37);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-form button:hover {
+    background-color: rgb(34, 48, 95);
+
+}
+
+
